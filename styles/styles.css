@@ -9,13 +9,11 @@ nav a {
     padding: 20px;
 }
 main{
-    width: 840px;
-
+    max-width: 840px;
 }
 h1 {
     color: darkblue;
 }
-
 
 main img {
     width: 150px;

@@ -25,6 +25,10 @@ footer {
     margin: 0 auto;
 }
 
+.socialmedia {
+    background-color: var(--secondary-color)
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -39,10 +43,6 @@ article {
     padding: 8px;
 }
 
-.socialmedia a {
-    text-decoration: none;
-}
-
 article {
     position: absolute;
 }
@@ -55,6 +55,8 @@ article {
     display: block;
     width: 100%;
     height: auto;
+    border: 1px solid;
+    border-color: var(--accent2-color)
 }
 
 h1 {
@@ -83,4 +85,23 @@ h1 {
     float: right;
     width: 200px;
     border-radius: 8px;
+}
+
+footer p {
+    position: absolute;
+    width: 100%;
+}
+
+.socialmedia {
+    height: 70px;
+}
+
+.socialmedia img {
+    height: 50px;
+    float: right;
+
+}
+
+.socialmedia a {
+    text-decoration: none;
 }

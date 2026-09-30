@@ -40,8 +40,8 @@ main {
 
 h1 {
     color: #1e3f20;
-    padding: .5rem;
-    border-bottom: 1.5px brown;
+    padding: 0.5rem;
+    border-bottom: 1.5px solid #1e3f20;
 }
 
 main img {
@@ -52,7 +52,8 @@ main img {
     max-width: 840px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin: 0 0 1rem 1rem;
+    margin: 5px 2px 1rem 1rem;
+
 }
 
 aside {

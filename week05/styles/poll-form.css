@@ -15,7 +15,7 @@ header {
     margin: 0.2rem;
     width: 650px;
     text-align: center;
-    ;
+    justify-self: center;
 }
 
 h1 {
